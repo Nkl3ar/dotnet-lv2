@@ -1,0 +1,10 @@
+﻿@page
+@model Lotto645Model
+@{
+    ViewData["Title"] = "Lotto 6x45";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Lotto 6x45</h1>
+    <p>@foreach(var i in @Model.RandomNums){ @i;<a> </a>}</p>
+</div>
